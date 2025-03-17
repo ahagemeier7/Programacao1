@@ -36,16 +36,29 @@ namespace Aula01.Controllers
 
             Result resultado = new();
             resultado.Texto = texto.ToUpper();
-
+            resultado.Texto = CeasarCipher(resultado.Texto);
             return View("Index", resultado);
         }
 
         public string CeasarCipher(string texto) 
         {
             int chave = 1;
-            string[] alfaebto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+            string[] alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
             char[] c = texto.ToCharArray();
-
+            //[C,A,S,A]
+            for (int i = 0; i < c.length; i++)
+            {
+               for (int j = 0; j < alfabeto.length; j++)
+               {
+                   if (c[i] == alfabeto[j])
+                   {
+                       c[i] = alfabeto[j + chave];
+                       
+                   }
+               }
+            }
+            c.ToString();
+            Console.WriteLine(c);
 
         }
     }
