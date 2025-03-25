@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\427281\\source\\repos\\Aula03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\source\\repos\\aula03\\aula03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|solutionrelative:aula03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\source\\repos\\aula03\\aula03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|solutionrelative:aula03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Aula03\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Aula03\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T23:38:04.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Aula03\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Aula03\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwv3UAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:45:06.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

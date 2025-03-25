@@ -1,0 +1,35 @@
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\appsettings.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\Dias da semana.staticwebassets.runtime.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\Dias da semana.staticwebassets.endpoints.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\Dias da semana.exe
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\Dias da semana.deps.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\Dias da semana.runtimeconfig.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\Dias da semana.dll
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\bin\Debug\net8.0\Dias da semana.pdb
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.AssemblyInfoInputs.cache
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.AssemblyInfo.cs
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.csproj.CoreCompileInputs.cache
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.RazorAssemblyInfo.cache
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.RazorAssemblyInfo.cs
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.sourcelink.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\scopedcss\bundle\Dias da semana.styles.css
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\scopedcss\projectbundle\Dias da semana.bundle.scp.css
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets\msbuild.Dias da semana.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets\msbuild.Dias da semana.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets\msbuild.build.Dias da semana.props
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Dias da semana.props
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Dias da semana.props
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.dll
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\refint\Dias da semana.dll
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.pdb
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\Dias da semana.genruntimeconfig.cache
+C:\Users\427281\Documents\Programacao1\Dias da semana\Dias da semana\obj\Debug\net8.0\ref\Dias da semana.dll
