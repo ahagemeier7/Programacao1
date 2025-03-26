@@ -41,41 +41,41 @@ namespace Cheque.Controllers
         public string Tranformation(int number) 
         {
             Numero array = new();
-            int valorTeste = 1524;
+            //int valorTeste = 1524;
             string extenso = "";
 
-            if(valorTeste > 1000)
+            if(number > 1000)
             {
-                extenso += array.unidades[valorTeste/1000] + "mil";
-                valorTeste = valorTeste % 1000;
-                if (valorTeste > 0) extenso += " e ";
+                extenso += array.unidades[number / 1000] + "mil";
+                number = number % 1000;
+                if (number > 0) extenso += " e ";
             }
 
-            if (valorTeste > 100) {
-                extenso += array.centenas[valorTeste / 100];
-                valorTeste = valorTeste % 100;
-                if (valorTeste > 0) extenso += " e ";
+            if (number > 100) {
+                extenso += array.centenas[number / 100];
+                number = number % 100;
+                if (number > 0) extenso += " e ";
             }
 
-            if(valorTeste > 20)
+            if(number > 20)
             {
-                extenso += array.dezenas[valorTeste / 10];
-                valorTeste = valorTeste % 10;
-                if (valorTeste > 0) extenso += " e ";
+                extenso += array.dezenas[number / 10];
+                number = number % 10;
+                if (number > 0) extenso += " e ";
             }
 
-            if (valorTeste >= 10 && valorTeste <= 19)
+            if (number >= 10 && number <= 19)
             {
-                extenso += array.especiais[valorTeste - 10];
-                valorTeste = 0;
+                extenso += array.especiais[number - 10];
+                number = 0;
             }
 
-            if (valorTeste > 0)
+            if (number > 0)
             {
-                extenso += array.unidades[valorTeste];
+                extenso += array.unidades[number];
             }
 
-            if(valorTeste == 1000) extenso += array.milhares[1];
+            if(number == 1000) extenso += array.milhares[1];
 
             return extenso;
         }
