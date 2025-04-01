@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\427281\\source\\repos\\Aula03\\",
+  "WorkspaceRootPath": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\source\\repos\\aula03\\aula03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula03\\aula03\\views\\jogovelha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|solutionrelative:aula03\\views\\jogovelha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula03\\aula03\\controllers\\jogovelhacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|solutionrelative:aula03\\controllers\\jogovelhacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula03\\aula03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|solutionrelative:aula03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\source\\repos\\aula03\\aula03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula03\\aula03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31ED583D-A42D-4E1D-A9C9-076AAE5E14B2}|Aula03\\Aula03.csproj|solutionrelative:aula03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -21,31 +29,53 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JogoVelhaController.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Controllers\\JogoVelhaController.cs",
+              "RelativeDocumentMoniker": "Aula03\\Controllers\\JogoVelhaController.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Controllers\\JogoVelhaController.cs",
+              "RelativeToolTip": "Aula03\\Controllers\\JogoVelhaController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T23:00:52.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Views\\JogoVelha\\Index.cshtml",
+              "RelativeDocumentMoniker": "Aula03\\Views\\JogoVelha\\Index.cshtml",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Views\\JogoVelha\\Index.cshtml",
+              "RelativeToolTip": "Aula03\\Views\\JogoVelha\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T23:00:07.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Aula03\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Aula03\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-24T23:38:04.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Aula03\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\427281\\source\\repos\\Aula03\\Aula03\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula03\\Aula03\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Aula03\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwFIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAA0wHYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T22:45:06.305Z",
               "EditorCaption": ""

@@ -32,3 +32,38 @@ C:\Users\427281\source\repos\Aula03\Aula03\obj\Debug\net8.0\refint\Aula03.dll
 C:\Users\427281\source\repos\Aula03\Aula03\obj\Debug\net8.0\Aula03.pdb
 C:\Users\427281\source\repos\Aula03\Aula03\obj\Debug\net8.0\Aula03.genruntimeconfig.cache
 C:\Users\427281\source\repos\Aula03\Aula03\obj\Debug\net8.0\ref\Aula03.dll
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\appsettings.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\Aula03.staticwebassets.runtime.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\Aula03.staticwebassets.endpoints.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\Aula03.exe
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\Aula03.deps.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\Aula03.runtimeconfig.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\Aula03.dll
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\bin\Debug\net8.0\Aula03.pdb
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.AssemblyInfoInputs.cache
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.AssemblyInfo.cs
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.csproj.CoreCompileInputs.cache
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.RazorAssemblyInfo.cache
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.RazorAssemblyInfo.cs
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.sourcelink.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\scopedcss\bundle\Aula03.styles.css
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\scopedcss\projectbundle\Aula03.bundle.scp.css
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets\msbuild.Aula03.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets\msbuild.Aula03.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets\msbuild.build.Aula03.props
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Aula03.props
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Aula03.props
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.dll
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\refint\Aula03.dll
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.pdb
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\Aula03.genruntimeconfig.cache
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula03\Aula03\obj\Debug\net8.0\ref\Aula03.dll

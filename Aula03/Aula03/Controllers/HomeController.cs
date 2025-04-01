@@ -117,8 +117,47 @@ namespace Aula03.Controllers
 
             string retorno = string.Empty;
             for (int i = 0; i < 10; i++) { 
-            
+                if(i > 50){
+                break;
+                }
+
+                if (i % 2 == 0)
+                {
+                    continue;
+                }
+
+                retorno += $"{i}: ";
             }
+
+            return retorno;
+        }
+
+        [HttpGet]
+        public string GetForeach(string color)
+        {
+            /*
+             O comando foreach é utilizado para iterar uma sequencia de itens em uma coleção
+            e servir como uma opção simples de repetição.
+             */
+            string[] colors = { "Vermelho","Preto","Azul","Amarelo","Verde","Branco","Azul-Marinho","Rosa","Roxo","Cinza" };
+
+            string retorno = string.Empty;
+
+            if (colors.Contains(char.ToUpper(color[0]) + color.Substring(1))) {
+                retorno = "A cor escolhida é valida";
+            }
+            else
+            {
+                retorno = "Cor escolhida invalida";
+            }
+
+            foreach (string s in colors)
+            {
+                retorno += $" [{s}]";
+            }
+
+            return retorno;
+
         }
 
         public IActionResult Privacy()
