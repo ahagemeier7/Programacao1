@@ -1,0 +1,4 @@
+1) Escreva um programa recursivo, em c# para imprimir os números de n até 1 (decrescente)
+2) Escreva um programa em c# capaz de somar, os números de 1 a n, por exemplo n = 10 [1+2+3+4+5+6+7+8+9+10]
+3) Escreva um programa em c# capaz de contar quantos caracteres tem em uma string
+4) Escreva um programa recursivo que seja capaz de identificar se uma palavra é um palindromo
