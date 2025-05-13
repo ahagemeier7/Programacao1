@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70E34B13-88E0-489C-8AA1-454BD18706C6}|Aula05\\Aula05.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\aula05\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E34B13-88E0-489C-8AA1-454BD18706C6}|Aula05\\Aula05.csproj|solutionrelative:aula05\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Aula05\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Aula05\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T00:50:35.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Modelo\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\OrderItem.cs",
+              "RelativeToolTip": "Modelo\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:31:05.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Order.cs",
+              "RelativeDocumentMoniker": "Modelo\\Order.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Order.cs",
+              "RelativeToolTip": "Modelo\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:28:24.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Product.cs",
+              "RelativeDocumentMoniker": "Modelo\\Product.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Product.cs",
+              "RelativeToolTip": "Modelo\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:22:17.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Customer.cs",
+              "RelativeDocumentMoniker": "Modelo\\Customer.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Customer.cs",
+              "RelativeToolTip": "Modelo\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T23:12:03.029Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
