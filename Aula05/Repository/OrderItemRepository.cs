@@ -7,15 +7,15 @@ using Modelo;
 
 namespace Repository
 {
-    internal class AddressRepository
+    internal class OrderItemRepository
     {
-        public Address Retrieve()
+        public OrderItem Retrieve()
         {
-            return new Address();
+            return new OrderItem();
         }
-        public void Save(Address address)
+        public void Save(OrderItem orderItem)
         {
-            Console.WriteLine("Persistir");
+
         }
     }
 }

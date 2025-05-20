@@ -17,7 +17,7 @@ namespace Repository
         {
             return new List<Order>();
         }
-        public void Save(Order customer)
+        public void Save(Order order)
         {
 
         }

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|solutionrelative:repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|solutionrelative:repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|solutionrelative:repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\repository\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4857AD-AB09-4B1C-9385-74E5B627F2BF}|Repository\\Repository.csproj|solutionrelative:repository\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|c:\\users\\427281\\documents\\prog 1 certo\\programacao1\\aula05\\modelo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3EDB9E0-10E1-46F1-8EB0-746598D3CFC0}|Modelo\\Modelo.csproj|solutionrelative:modelo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\Class1.cs",
-              "RelativeDocumentMoniker": "Repository\\Class1.cs",
-              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\Class1.cs",
-              "RelativeToolTip": "Repository\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Modelo\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\OrderItem.cs",
+              "RelativeToolTip": "Modelo\\OrderItem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:50:28.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:57:32.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\AddressRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AddressRepository.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\AddressRepository.cs",
+              "RelativeToolTip": "Repository\\AddressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:57:16.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "Repository\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:56:34.33Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Order.cs",
+              "RelativeDocumentMoniker": "Modelo\\Order.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Order.cs",
+              "RelativeToolTip": "Modelo\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:51:21.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Repository\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:54:10.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Address.cs",
               "RelativeDocumentMoniker": "Modelo\\Address.cs",
               "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Address.cs",
               "RelativeToolTip": "Modelo\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:33:25.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:33:25.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Customer.cs",
               "RelativeDocumentMoniker": "Modelo\\Customer.cs",
               "ToolTip": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Customer.cs",
               "RelativeToolTip": "Modelo\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T23:12:03.029Z",
               "EditorCaption": ""

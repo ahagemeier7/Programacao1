@@ -7,13 +7,13 @@ using Modelo;
 
 namespace Repository
 {
-    internal class AddressRepository
+    internal class ProductRepository
     {
-        public Address Retrieve()
+        public Product Retrieve()
         {
-            return new Address();
+            return new Product();
         }
-        public void Save(Address address)
+        public void Save(Product product)
         {
             Console.WriteLine("Persistir");
         }
