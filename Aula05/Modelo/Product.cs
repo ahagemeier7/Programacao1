@@ -8,7 +8,13 @@
         public double CurrentPrice { get; set; }
         public bool Validate()
         {
-            return true;
+            bool isValid = true;
+            isValid = 
+                !string.IsNullOrEmpty(this.ProductName) && 
+                (this.Id > 0) && 
+                (this.CurrentPrice > 0);
+
+            return isValid;
         }
         public Product Retrieve()
         {

@@ -97,3 +97,7 @@ C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9.0\Aula05.pdb
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9.0\Aula05.genruntimeconfig.cache
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9.0\ref\Aula05.dll
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\bin\Debug\net9.0\Modelo.dll
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\bin\Debug\net9.0\Modelo.pdb
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9.0\Aula05.csproj.AssemblyReference.cache
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9.0\Aula05.csproj.Up2Date

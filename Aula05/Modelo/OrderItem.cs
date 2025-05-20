@@ -8,15 +8,15 @@
         public double PurchasePrice { get; set; }
         public bool Validate()
         {
-            return true;
-        }
-        public OrderItem Retrieve()
-        {
-            return new OrderItem();
-        }
-        public void Save(OrderItem orderItem)
-        {
-            Console.WriteLine("Persistir");
+            bool isValid = true;
+
+            isValid = 
+                this.Id > 0 && 
+                Product != null && 
+                Quantity > 0 && 
+                PurchasePrice > 0;
+
+            return isValid;
         }
     }
 }

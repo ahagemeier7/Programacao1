@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Aula05.Models;
 using Microsoft.AspNetCore.Mvc;
-
+using Modelo;
 
 namespace Aula05.Controllers
 {
