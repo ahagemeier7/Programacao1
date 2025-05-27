@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/Modelo.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Modelo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../Modelo/Modelo.csproj",
       "msbuildProject": "../Modelo/Modelo.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Modelo >= 1.0.0"
+      "Modelo >= 1.0.0",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +80,9 @@
           "projectReferences": {
             "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Modelo.csproj": {
               "projectPath": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Modelo\\Modelo.csproj"
+            },
+            "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Repository\\Repository.csproj"
             }
           }
         }
