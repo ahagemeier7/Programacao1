@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dias da semana")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eca17f23f80dd6f5a72f5894eb107e0562904b4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dabc7273da7523d260dd3c122151b55410133e32")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dias da semana")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dias da semana")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,6 +6,7 @@
         public string? ProductName { get; set; }
         public string? Description { get; set; }
         public double CurrentPrice { get; set; }
+
         public bool Validate()
         {
             bool isValid = true;

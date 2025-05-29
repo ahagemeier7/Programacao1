@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aula04Recursividade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dabc7273da7523d260dd3c122151b55410133e32")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aula04Recursividade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aula04Recursividade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
