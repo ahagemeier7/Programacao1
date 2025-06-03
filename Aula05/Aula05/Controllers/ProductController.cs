@@ -33,6 +33,7 @@ namespace Aula05.Controllers
 
             return View("Index", products);
         }
+        
         [HttpGet]
         public IActionResult Create()
         {
