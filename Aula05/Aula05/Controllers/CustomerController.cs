@@ -1,4 +1,6 @@
-﻿﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Reflection.Metadata.Ecma335;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor.Compilation;
 using Modelo;
 using Repository;
 
@@ -59,27 +61,103 @@ namespace Aula05.Controllers
                                   ";
             }
 
-            var path = Path.Combine(
-                environment.WebRootPath,
-                "TextFiles");
-
-            if(!System.IO.File.Exists(path))
-                System.IO.Directory.CreateDirectory(path);
-
-            var filepath = Path.Combine(
-                path,
-                "Delimitado.txt"
-            );
-
-            if(!System.IO.File.Exists( filepath ))
-            {
-                using (StreamWriter sw = System.IO.File.CreateText( filepath ))
-                {
-                    sw.WriteLine(fileContent);
-                }
-            }
+            SaveFile(fileContent, "DelimitatedFile.txt");
 
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult ExportFixedFile()
+        {
+            string fileContent = string.Empty;
+            foreach (Customer c in CustomerData.Customers)
+            {
+                fileContent +=
+                    String.Format("{0:5}{1:64}", c.Id, c.Name) +
+                    String.Format("{0:5}", c.Address!.Id) +
+                    String.Format("{0:32}", c.Address!.City) +
+                    String.Format("{0:2}", c.Address!.State) +
+                    String.Format("{0:32}", c.Address!.Country) +
+                    String.Format("{0:64}", c.Address!.StreetName) +
+                    String.Format("{0:9}", c.Address!.PostalCode) +
+                    String.Format("{0:16}", c.Address!.AddressType)+ "\n";
+            }
+
+            SaveFile(fileContent, "FixedFile.txt");
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            if (id is null || id.Value <= 0)
+                return NotFound();
+
+            Customer customer = _customerRepository.Retrieve(id.Value);
+
+            if (customer == null)
+                return NotFound();
+
+            return View(customer);
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmDelete(int? id)
+        {
+            if (id is null || id.Value <= 0)
+                return NotFound();
+
+            if(!_customerRepository.DeleteById(id.Value))
+                return NotFound();
+
+            return RedirectToAction("Index");
+        }
+
+
+        private bool SaveFile(string content,string fileName)
+        {
+            bool ret = true;
+
+            if (string.IsNullOrEmpty(fileName) || string.IsNullOrEmpty(content))
+                return false;
+
+            var path = Path.Combine(
+                environment.WebRootPath,
+                "TextFiles"
+            );
+
+            try
+            {
+                if (!System.IO.File.Exists(path))
+                    System.IO.Directory.CreateDirectory(path);
+
+                var filepath = Path.Combine(
+                    path,
+                    fileName
+                );
+
+                if (!System.IO.File.Exists(filepath))
+                {
+                    using (StreamWriter sw = System.IO.File.CreateText(filepath))
+                    {
+                        sw.WriteLine(content);
+                    }
+                }
+
+            }
+            catch (IOException ioEx)
+            {
+                string msg = ioEx.Message;
+                ret = false;
+            }
+            catch (Exception ex) 
+            {
+               string msg = ex.Message;
+                ret = false;
+            }
+
+            return ret;
         }
     }
 }
