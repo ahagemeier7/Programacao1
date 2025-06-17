@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\TextFiles\\Delimitado.txt"
     },
     {
+      "Id": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\TextFiles\\FixedFile.txt",
+      "PackagePath": "staticwebassets\\TextFiles\\FixedFile.txt"
+    },
+    {
       "Id": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

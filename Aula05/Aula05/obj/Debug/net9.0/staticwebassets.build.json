@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K+P85cV7SxK8rHzrG+sz/xtcjIiwumiFRkkRzDI/kG0=",
+  "Hash": "//bG3y4HxCqh3rwov4VDfWbiT+/PAOUdZzJPKNNROsk=",
   "Source": "Aula05",
   "BasePath": "_content/Aula05",
   "Mode": "Default",
@@ -876,6 +876,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\obj\\Debug\\net9.0\\compressed\\k6c7lc5cqh-5ch76hzdcv.gz",
+      "SourceId": "Aula05",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Aula05",
+      "RelativePath": "TextFiles/FixedFile#[.{fingerprint=5ch76hzdcv}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\TextFiles\\FixedFile.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z6y3r880yj",
+      "Integrity": "22oSDFcjbrdgOz5isCzfi2TC25xuOthiBx7hLKUVyjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\TextFiles\\FixedFile.txt"
     },
     {
       "Identity": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\obj\\Debug\\net9.0\\compressed\\k8mlp98qq6-erw9l3u2r3.gz",
@@ -2766,6 +2787,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\TextFiles\\Delimitado.txt"
+    },
+    {
+      "Identity": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\TextFiles\\FixedFile.txt",
+      "SourceId": "Aula05",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\",
+      "BasePath": "_content/Aula05",
+      "RelativePath": "TextFiles/FixedFile#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ch76hzdcv",
+      "Integrity": "hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TextFiles\\FixedFile.txt"
     }
   ],
   "Endpoints": [
@@ -22218,6 +22260,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-Q/SFY8mqI2j0mwrxPVU7chIJ0LVy3xt1NLfATZK7PGc="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.5ch76hzdcv.txt",
+      "AssetFile": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\obj\\Debug\\net9.0\\compressed\\k6c7lc5cqh-5ch76hzdcv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008928571429"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22oSDFcjbrdgOz5isCzfi2TC25xuOthiBx7hLKUVyjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ch76hzdcv"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFile.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.5ch76hzdcv.txt",
+      "AssetFile": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\TextFiles\\FixedFile.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ch76hzdcv"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFile.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.5ch76hzdcv.txt.gz",
+      "AssetFile": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\obj\\Debug\\net9.0\\compressed\\k6c7lc5cqh-5ch76hzdcv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22oSDFcjbrdgOz5isCzfi2TC25xuOthiBx7hLKUVyjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ch76hzdcv"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFile.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-22oSDFcjbrdgOz5isCzfi2TC25xuOthiBx7hLKUVyjg="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.txt",
+      "AssetFile": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\obj\\Debug\\net9.0\\compressed\\k6c7lc5cqh-5ch76hzdcv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008928571429"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22oSDFcjbrdgOz5isCzfi2TC25xuOthiBx7hLKUVyjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.txt",
+      "AssetFile": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\wwwroot\\TextFiles\\FixedFile.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW2kILXSAI8yCae3O5Z6PqTW1AGYpvLiVLqQ/5lqZWM="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.txt.gz",
+      "AssetFile": "C:\\Users\\427281\\Documents\\Prog 1 certo\\Programacao1\\Aula05\\Aula05\\obj\\Debug\\net9.0\\compressed\\k6c7lc5cqh-5ch76hzdcv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22oSDFcjbrdgOz5isCzfi2TC25xuOthiBx7hLKUVyjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:55:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-22oSDFcjbrdgOz5isCzfi2TC25xuOthiBx7hLKUVyjg="
         }
       ]
     }

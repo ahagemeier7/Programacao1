@@ -37,6 +37,7 @@ C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\lib\bo
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\TextFiles\FixedFile.txt
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\wwwroot\lib\jquery-validation\dist\jquery.validate.js
@@ -125,3 +126,4 @@ wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\TextFiles\Delimitado.txt
+wwwroot\TextFiles\FixedFile.txt

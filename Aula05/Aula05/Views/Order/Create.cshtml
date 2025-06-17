@@ -1,0 +1,78 @@
+﻿@model Aula05.ViewModels.OrderViewModel
+
+@{
+    ViewData["Title"] = "Criar Pedido";
+}
+
+<div class="text-center">
+    <h1>Cadastro de Pedido</h1>
+
+    <div class="container">
+
+        <form id="formOrder" method="post"
+              asp-action="Create"
+              asp-controller="Order">
+
+            <div class="row">
+                <div class="form-group">
+                    <label asp-for="@Model.CustomerID">Cliente:</label>
+                    <select asp-for="@Model.CustomerID" class="form-select">
+                        @foreach(var c in Model.Customers)
+                        {
+                            <option value="@c.Id">@c.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+
+                            </th>
+                            <th>
+                                Item
+                            </th>
+                            <th>
+                                Quantidade
+                            </th>
+                            <th>
+                                Valor
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in Model.SelectedItems!)
+                        {
+                            <tr>
+                               <td>
+                                   @item.IsSelected
+                               </td>
+                               <td>
+                                   @item.OrderItem!.Product!.ProductName
+                               </td>
+                               <td>
+                                   @item.OrderItem.Quantity
+                               </td>
+                                <td>
+                                    @item.OrderItem.Product.CurrentPrice
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <button id="btnOrder"
+                    type="submit"
+                    class="btn btn-primary"
+                    value="Cadastrar">
+                Cadastrar
+            </button>
+
+        </form>
+
+    </div>
+</div>

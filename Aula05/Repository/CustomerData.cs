@@ -10,5 +10,7 @@ namespace Repository
     public class CustomerData
     {
         public static List<Customer> Customers { get; set; } = [];
+        public static List<Order> Orders { get; set; } = [];
     }
+
 }
