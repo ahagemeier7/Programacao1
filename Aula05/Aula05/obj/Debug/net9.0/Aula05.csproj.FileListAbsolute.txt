@@ -205,3 +205,5 @@ C:\Users\augus\Documents\Programacao1\Aula05\Aula05\obj\Debug\net9.0\Aula05.genr
 C:\Users\augus\Documents\Programacao1\Aula05\Aula05\obj\Debug\net9.0\ref\Aula05.dll
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9.0\compressed\6yvihjgntk-ogytlb93y1.gz
 C:\Users\427281\Documents\Prog 1 certo\Programacao1\Aula05\Aula05\obj\Debug\net9.0\compressed\k6c7lc5cqh-5ch76hzdcv.gz
+C:\Users\augus\Documents\Programacao1\Aula05\Aula05\obj\Debug\net9.0\compressed\6yvihjgntk-ogytlb93y1.gz
+C:\Users\augus\Documents\Programacao1\Aula05\Aula05\obj\Debug\net9.0\compressed\k6c7lc5cqh-hwem14qseo.gz

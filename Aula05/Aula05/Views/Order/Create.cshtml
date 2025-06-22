@@ -48,7 +48,11 @@
                         {
                             <tr>
                                <td>
-                                   @item.IsSelected
+                                    <input type="checkbox"
+                                           name="item.IsSelected"
+                                           value="true"
+                                           @(item.IsSelected ? "checked" : "") />
+                                    <input type="hidden" name="item.IsSelected" value="false" />
                                </td>
                                <td>
                                    @item.OrderItem!.Product!.ProductName
@@ -69,7 +73,7 @@
                     type="submit"
                     class="btn btn-primary"
                     value="Cadastrar">
-                Cadastrar
+                Salvar
             </button>
 
         </form>
