@@ -15,9 +15,11 @@
 
             <div class="row">
                 <div class="form-group">
-                    <label asp-for="@Model.CustomerID">Cliente:</label>
-                    <select asp-for="@Model.CustomerID" class="form-select">
-                        @foreach(var c in Model.Customers)
+                    <label asp-for="@Model.CustomerId">
+                        Cliente:
+                    </label>
+                    <select asp-for="@Model.CustomerId" class="form-select">
+                        @foreach (var c in Model.Customers)
                         {
                             <option value="@c.Id">@c.Name</option>
                         }
@@ -26,42 +28,43 @@
             </div>
 
             <div class="row">
-                <table>
+                <table class="table table-striped table-bordered table-hover table-responsive">
                     <thead>
                         <tr>
-                            <th>
-
-                            </th>
-                            <th>
-                                Item
-                            </th>
-                            <th>
-                                Quantidade
-                            </th>
-                            <th>
-                                Valor
-                            </th>
+                            <th>Sel.</th>
+                            <th>Produto</th>
+                            <th>Val. Unit.</th>
+                            <th>Quant.</th>
+                            <th>Val.</th>
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach(var item in Model.SelectedItems!)
+                        @for (int i = 0; i < Model.SelectedItems!.Count; i++)
                         {
+                            var item = Model.SelectedItems[i];
                             <tr>
-                               <td>
-                                    <input type="checkbox"
-                                           name="item.IsSelected"
-                                           value="true"
-                                           @(item.IsSelected ? "checked" : "") />
-                                    <input type="hidden" name="item.IsSelected" value="false" />
-                               </td>
-                               <td>
-                                   @item.OrderItem!.Product!.ProductName
-                               </td>
-                               <td>
-                                   @item.OrderItem.Quantity
-                               </td>
                                 <td>
-                                    @item.OrderItem.Product.CurrentPrice
+                                    <input type="checkbox" class="form-check-input"
+                                           asp-for="@Model.SelectedItems[i].IsSelected" />
+                                    <input type="hidden"
+                                           asp-for="@Model.SelectedItems[i].OrderItem" />
+
+                                </td>
+                                <td>
+                                    <input type="hidden"
+                                           asp-for="@Model.SelectedItems[i].OrderItem.Product!.Id" />
+                                    <span>@Model.SelectedItems[i].OrderItem.Product!.Name</span>
+                                </td>
+                                <td>
+                                    <span>
+                                        @string.Format("{0:C}", Model.SelectedItems[i]!.OrderItem!.Product!.CurrentPrice)
+                                    </span>
+                                </td>
+                                <td>
+                                    <input type="number" asp-for="@Model.SelectedItems[i].OrderItem.Quantity" />
+                                </td>
+                                <td>
+                                    <input type="number" asp-for="@Model.SelectedItems[i].OrderItem.PurchasePrice" />
                                 </td>
                             </tr>
                         }
@@ -69,11 +72,11 @@
                 </table>
             </div>
 
-            <button id="btnOrder"
+            <button id="btnCustomer"
                     type="submit"
                     class="btn btn-primary"
                     value="Cadastrar">
-                Salvar
+                Cadastrar
             </button>
 
         </form>

@@ -29,30 +29,46 @@ app.MapControllerRoute(
     .WithStaticAssets();
 
 FillCustomerData();
+FillProductData();
 
 app.Run();
 
+
 static void FillCustomerData()
 {
-    for(int i = 0; i < 10; i++)
+    for (int i = 1; i <= 10; i++)
     {
         Customer customer = new()
         {
-            Id = i + 1,
-            Name = $"Customer {i + 1}",
-            Address = new Address()
+            Id = i,
+            Name = $"Customer {i}",
+            HomeAddress = new Address() 
             {
-                Id = i + 1,
+                Id = i,
                 AddressType = "Casa",
                 City = "Videira",
-                Country = "Brasil",
-                State = "Santa Catarina",
+                Country = "HU3HU3BR",
+                State = "SC",
                 PostalCode = "89560-000",
-                StreetName = "Rua"
-
+                Street1 = "Rua da minha casa",
+                Street2 = "Sua casa"
             }
         };
+
         CustomerData.Customers.Add(customer);
     }
+}
 
+static void FillProductData()
+{
+    for (int i = 1; i <= 10; i++)
+    {
+        Product product = new()
+        {
+            Id = i,
+            Name = $"Product {i}"
+        };
+
+        CustomerData.Products.Add(product);
+    }
 }

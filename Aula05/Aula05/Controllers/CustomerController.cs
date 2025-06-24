@@ -1,17 +1,19 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Razor.Compilation;
+﻿using Microsoft.AspNetCore.Mvc;
 using Modelo;
 using Repository;
+using System.IO;
 
 namespace Aula05.Controllers
 {
     public class CustomerController : Controller
     {
         private readonly IWebHostEnvironment environment;
+
         private CustomerRepository _customerRepository;
 
-        public CustomerController(IWebHostEnvironment environment)
+        public CustomerController(
+            IWebHostEnvironment environment
+        )
         {
             _customerRepository = new CustomerRepository();
             this.environment = environment;
@@ -47,18 +49,10 @@ namespace Aula05.Controllers
         public IActionResult ExportDelimitatedFile()
         {
             string fileContent = string.Empty;
-            foreach(Customer c in CustomerData.Customers)
+            foreach (Customer c in CustomerData.Customers)
             {
-                fileContent += @$"{c.Id};{c.Name};
-                                  {c.Address!.Id};
-                                  {c.Address.City};
-                                  {c.Address.State};
-                                  {c.Address.Country};
-                                  {c.Address.StreetName};
-                                  {c.Address.PostalCode};
-                                  {c.Address.AddressType}
-                                  \n
-                                  ";
+                fileContent += 
+                    $"{c.Id};{c.Name};{c.HomeAddress!.Id};{c.HomeAddress.City};{c.HomeAddress.State};{c.HomeAddress.Country};{c.HomeAddress.Street1};{c.HomeAddress.Street2};{c.HomeAddress.PostalCode};{c.HomeAddress.AddressType}\n";
             }
 
             SaveFile(fileContent, "DelimitatedFile.txt");
@@ -73,14 +67,17 @@ namespace Aula05.Controllers
             foreach (Customer c in CustomerData.Customers)
             {
                 fileContent +=
-                    String.Format("{0:5}{1:64}", c.Id, c.Name) +
-                    String.Format("{0:5}", c.Address!.Id) +
-                    String.Format("{0:32}", c.Address!.City) +
-                    String.Format("{0:2}", c.Address!.State) +
-                    String.Format("{0:32}", c.Address!.Country) +
-                    String.Format("{0:64}", c.Address!.StreetName) +
-                    String.Format("{0:9}", c.Address!.PostalCode) +
-                    String.Format("{0:16}", c.Address!.AddressType)+ "\n";
+                    String.Format("{0:5}{1:64}", c.Id, c.Name) +                    
+                    String.Format("{0:5}", c.HomeAddress!.Id) + 
+                    String.Format("{0:32}", c.HomeAddress!.City) +
+                    String.Format("{0:2}", c.HomeAddress!.State) +
+                    String.Format("{0:32}", c.HomeAddress!.Country) +
+                    String.Format("{0:64}", c.HomeAddress!.Street1) +
+                    String.Format("{0:64}", c.HomeAddress!.Street2) +
+                    String.Format("{0:9}", c.HomeAddress!.PostalCode) +
+                    String.Format("{0:16}", c.HomeAddress!.AddressType) + 
+                    "\n";
+
             }
 
             SaveFile(fileContent, "FixedFile.txt");
@@ -94,7 +91,8 @@ namespace Aula05.Controllers
             if (id is null || id.Value <= 0)
                 return NotFound();
 
-            Customer customer = _customerRepository.Retrieve(id.Value);
+            Customer customer = 
+                _customerRepository.Retrieve(id.Value);
 
             if (customer == null)
                 return NotFound();
@@ -108,18 +106,17 @@ namespace Aula05.Controllers
             if (id is null || id.Value <= 0)
                 return NotFound();
 
-            if(!_customerRepository.DeleteById(id.Value))
+            if (!_customerRepository.DeleteById(id.Value))
                 return NotFound();
 
             return RedirectToAction("Index");
         }
 
-
-        private bool SaveFile(string content,string fileName)
+        private bool SaveFile(string content, string fileName)
         {
             bool ret = true;
 
-            if (string.IsNullOrEmpty(fileName) || string.IsNullOrEmpty(content))
+            if (string.IsNullOrEmpty(content) || string.IsNullOrEmpty(fileName))
                 return false;
 
             var path = Path.Combine(
@@ -129,7 +126,8 @@ namespace Aula05.Controllers
 
             try
             {
-                if (!System.IO.File.Exists(path))
+
+                if (!System.IO.Directory.Exists(path))
                     System.IO.Directory.CreateDirectory(path);
 
                 var filepath = Path.Combine(
@@ -137,27 +135,23 @@ namespace Aula05.Controllers
                     fileName
                 );
 
-                if (!System.IO.File.Exists(filepath))
+                using (StreamWriter sw = System.IO.File.CreateText(filepath))
                 {
-                    using (StreamWriter sw = System.IO.File.CreateText(filepath))
-                    {
-                        sw.WriteLine(content);
-                    }
+                    sw.Write(content);
                 }
-
             }
             catch (IOException ioEx)
             {
                 string msg = ioEx.Message;
-                ret = false;
+                ret = false;                
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-               string msg = ex.Message;
+                string msg = ex.Message;
                 ret = false;
             }
 
             return ret;
-        }
+        }    
     }
 }
