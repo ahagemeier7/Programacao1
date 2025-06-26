@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Aula05\\Aula05.csproj": {}
+    "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Aula05\\Aula05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Aula05\\Aula05.csproj": {
+    "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Aula05\\Aula05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Aula05\\Aula05.csproj",
+        "projectUniqueName": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Aula05\\Aula05.csproj",
         "projectName": "Aula05",
-        "projectPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Aula05\\Aula05.csproj",
-        "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Aula05\\obj\\",
+        "projectPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Aula05\\Aula05.csproj",
+        "packagesPath": "C:\\Users\\augusto.hagemeier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Aula05\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\augusto.hagemeier\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\Modelo.csproj"
+              "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\Modelo.csproj"
               },
-              "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Repository\\Repository.csproj"
+              "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Repository\\Repository.csproj"
               }
             }
           }
@@ -79,20 +79,20 @@
         }
       }
     },
-    "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\Modelo.csproj",
-        "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\obj\\",
+        "projectPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\Modelo.csproj",
+        "packagesPath": "C:\\Users\\augusto.hagemeier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\augusto.hagemeier\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -144,20 +144,20 @@
         }
       }
     },
-    "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Repository\\Repository.csproj": {
+    "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\augusto.hagemeier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\augusto.hagemeier\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -172,8 +172,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\augus\\Documents\\Programacao1\\Aula05\\Modelo\\Modelo.csproj"
+              "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\augusto.hagemeier\\Documents\\Almoco\\Programacao1\\Aula05\\Modelo\\Modelo.csproj"
               }
             }
           }
