@@ -1,0 +1,87 @@
+﻿@model TrabalhoImobiliaria.ViewModels.PropertyViewModel;
+
+<div class="text-center">
+    <h1>Cadastro de Consumidor</h1>
+
+    <div class="container">
+
+        <form id="formCustomer" method="post" 
+            asp-action="Create" 
+            asp-controller="Property">
+
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nro_Quartos</th>
+                    <th scope="col">Nro_Vagas</th>
+                    <th scope="col">Nro_Banheiros</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Categoria</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" 
+                            class="form-control" 
+                            id="Id" 
+                            name="Id"
+                               value="@Model.Property?.Id"
+                               readonly />
+                    </td>
+                    <td>
+                        <input type="number" 
+                            class="form-control" 
+                            id="NroQuartos" 
+                            name="NroQuartos"
+                               value="@Model.Property?.NroQuartos" />
+                    </td>
+                    <td>
+                        <input type="number" 
+                            class="form-control" 
+                            id="NroVagas" 
+                            name="NroVagas"
+                               value="@Model.Property?.NroVagas" />
+                    </td>
+                    <td>
+                        <input type="number" 
+                            class="form-control" 
+                            id="NroBanheiros" 
+                            name="NroBanheiros"
+                               value="@Model.Property?.NroBanheiros" />
+                    </td>
+                    <td>
+                        <input type="text" 
+                            class="form-control" 
+                            id="Nome" 
+                            name="Nome"
+                               value="@Model.Property?.Nome" />
+                    </td>
+                    <td>
+                        <input type="text" 
+                            class="form-control" 
+                            id="Descricao" 
+                            name="Descricao"
+                               value="@Model.Property?.Descricao" />
+                    </td>
+                    <td>
+                        <select asp-for="@Model.Categories" class="form-select">
+                            @foreach (var c in Model.Categories)
+                            {
+                                <option value="@c.Id">@c.Name</option>
+                            }
+                        </select>
+                    </td>
+				</tr>
+            </tbody>
+            <button id="btnCustomer" 
+                type="submit" 
+                class="btn btn-primary" 
+                value="Cadastrar">
+                Cadastrar
+            </button>
+        </form>
+    </div>
+</div>
