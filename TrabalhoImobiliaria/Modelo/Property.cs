@@ -15,6 +15,7 @@ namespace Modelo
         public Address? Address { get; set; }
         public string? Nome { get; set; }
         public string? Descricao { get; set; }
+        public int CategoriaId { get; set; }
         public Category? Categoria { get; set; }
     }
 }

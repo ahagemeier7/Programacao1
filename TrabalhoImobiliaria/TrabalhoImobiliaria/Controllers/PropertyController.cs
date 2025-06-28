@@ -41,14 +41,25 @@ namespace TrabalhoImobiliaria.Controllers
         [HttpPost]
         public IActionResult Create(Property imovel)
         {
+            // Recupera a categoria selecionada
+            if (imovel.CategoriaId > 0)
+            {
+                imovel.Categoria = _categoryRepository.Retrieve(imovel.CategoriaId);
+            }
+
             _propertyRepository.Save(imovel);
 
-            List<Property> imoveis =
-                _propertyRepository.RetrieveAll();
+            List<Property> imoveis = _propertyRepository.RetrieveAll();
 
             return View("Index", imoveis);
         }
 
-
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            _propertyRepository.DeleteById(id);
+            var imoveis = _propertyRepository.RetrieveAll();
+            return View("Index", imoveis);
+        }
     }
 }
