@@ -4,7 +4,7 @@
     <h1>Cadastro de Imóvel</h1>
 
     <div class="container">
-        <form id="formCustomer" method="post" 
+        <form id="formProperty" method="post" 
             asp-action="Create" 
             asp-controller="Property">
             
@@ -18,6 +18,7 @@
                         <th scope="col">Nome</th>
                         <th scope="col">Descrição</th>
                         <th scope="col">Categoria</th>
+                        <th scope="col">Endereço</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -70,6 +71,14 @@
                                 @foreach (var c in Model.Categories)
                                 {
                                     <option value="@c.Id">@c.Name</option>
+                                }
+                            </select>
+                        </td>
+                        <td>
+                            <select class="form-select" id="AddressId" name="AddressId">
+                                @foreach (var c in Model.Addresses!)
+                                {
+                                    <option value="@c.Id">@c.Number</option>
                                 }
                             </select>
                         </td>

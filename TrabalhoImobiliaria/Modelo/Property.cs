@@ -12,6 +12,7 @@ namespace Modelo
         public int NroQuartos { get; set; }
         public int NroVagas { get; set; }
         public int NroBanheiros { get; set; }
+        public int AddressId { get; set; }
         public Address? Address { get; set; }
         public string? Nome { get; set; }
         public string? Descricao { get; set; }

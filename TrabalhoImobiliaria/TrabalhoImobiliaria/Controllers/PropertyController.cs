@@ -11,12 +11,14 @@ namespace TrabalhoImobiliaria.Controllers
 
         private readonly PropertyRepository _propertyRepository;
         private readonly CategoryRepository _categoryRepository;
+        private readonly AddressRepository _addressRepository;
 
         public PropertyController(IWebHostEnvironment environment)
         {
             this._environment = environment;
             _propertyRepository = new PropertyRepository();
             _categoryRepository = new CategoryRepository();
+            _addressRepository = new AddressRepository();
         }
 
         [HttpGet]
@@ -33,7 +35,8 @@ namespace TrabalhoImobiliaria.Controllers
             var viewModel = new PropertyViewModel()
             {
                 Categories = _categoryRepository.RetrieveAll(),
-                Property = new Property()
+                Property = new Property(),
+                Addresses = _addressRepository.RetrieveAll()
             };
             return View(viewModel);
         }
@@ -45,6 +48,10 @@ namespace TrabalhoImobiliaria.Controllers
             if (imovel.CategoriaId > 0)
             {
                 imovel.Categoria = _categoryRepository.Retrieve(imovel.CategoriaId);
+            }
+            if (imovel.AddressId > 0)
+            {
+                imovel.Address = _addressRepository.Retrieve(imovel.AddressId);
             }
 
             _propertyRepository.Save(imovel);

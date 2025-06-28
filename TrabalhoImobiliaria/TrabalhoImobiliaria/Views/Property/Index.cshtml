@@ -26,6 +26,7 @@
                 <th scope="col">Nome</th>
                 <th scope="col">Descrição</th>
                 <th scope="col">Categoria</th>
+                <th scope="col">Endereço</th>
                 <th></th>
             </tr>
         </thead>
@@ -40,6 +41,7 @@
                     <td class="text-truncate">@property.Nome</td>
                     <td class="text-truncate">@property.Descricao</td>
                     <td class="text-truncate">@property.Categoria?.Name</td>
+                    <td class="text-truncate">@property.Address?.Number</td>
                     <td>
                         <a asp-action="Update" asp-controller="Property"
                            asp-route-id="@property.Id"

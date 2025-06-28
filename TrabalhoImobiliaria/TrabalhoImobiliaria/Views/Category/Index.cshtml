@@ -26,7 +26,7 @@
                     <td>@category.Id</td>
                     <td class="text-truncate">@category.Name</td>
                     <td>
-                        <a asp-action="Update" asp-controller="Categoriy"
+                        <a asp-action="Update" asp-controller="Category" method="get"
                            asp-route-id="@category.Id"
                            title="Atualizar Categoria @category.Name"
                            class="btn btn-primary btn-sm">

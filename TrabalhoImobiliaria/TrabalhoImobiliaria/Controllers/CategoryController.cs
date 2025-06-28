@@ -50,5 +50,21 @@ namespace TrabalhoImobiliaria.Controllers
             var imoveis = _categoryRepository.RetrieveAll();
             return View("Index", imoveis);
         }
+
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            Category categoria = _categoryRepository.Retrieve(id);
+
+            return View(categoria);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Category categoria)
+        {
+            _categoryRepository.Update(categoria);
+            var categorias = _categoryRepository.RetrieveAll();
+            return View("Index", categorias);
+        }
     }
 }
