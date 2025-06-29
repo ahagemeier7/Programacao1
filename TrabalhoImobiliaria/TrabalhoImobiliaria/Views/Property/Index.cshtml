@@ -8,21 +8,22 @@
 {
     <table class="table table-striped table-bordered table-hover" style="table-layout: fixed; width: 100%;">
         <colgroup>
-            <col style="width: 5%;" />   <!-- Id -->
-            <col style="width: 8%;" />   <!-- Nro_Quartos -->
-            <col style="width: 8%;" />   <!-- Nro_Vagas -->
-            <col style="width: 10%;" />  <!-- Nro_Banheiros -->
-            <col style="width: 15%;" />  <!-- Nome -->
-            <col style="width: 28%;" />  <!-- Descrição -->
-            <col style="width: 16%;" />  <!-- Categoria -->
-            <col style="width: 10%;" />  <!-- Ações -->
+            <col style="width: 5%;" />    <!-- Id -->
+            <col style="width: 7%;" />    <!-- Nro_Quartos -->
+            <col style="width: 7%;" />    <!-- Nro_Vagas -->
+            <col style="width: 8%;" />    <!-- Nro_Banheiros -->
+            <col style="width: 15%;" />   <!-- Nome -->
+            <col style="width: 20%;" />   <!-- Descrição -->
+            <col style="width: 12%;" />   <!-- Categoria -->
+            <col style="width: 16%;" />   <!-- Endereco -->
+            <col style="width: 10%;" />   <!-- Ações -->
         </colgroup>
         <thead class="table-dark">
             <tr>
                 <th scope="col">Id</th>
-                <th scope="col">Nro_Quartos</th>
-                <th scope="col">Nro_Vagas</th>
-                <th scope="col">Nro_Banheiros</th>
+                <th scope="col">Quartos</th>
+                <th scope="col">Vagas</th>
+                <th scope="col">Banheiros</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Descrição</th>
                 <th scope="col">Categoria</th>
@@ -43,7 +44,7 @@
                     <td class="text-truncate">@property.Categoria?.Name</td>
                     <td class="text-truncate">@property.Address?.Number</td>
                     <td>
-                        <a asp-action="Update" asp-controller="Property"
+                        <a asp-action="Update" asp-controller="Property" metohd="get"
                            asp-route-id="@property.Id"
                            title="Atualizar imovel @property.Nome"
                            class="btn btn-primary btn-sm">
@@ -67,3 +68,9 @@ else
         Não existem imoveis cadastrados
     </div>
 }
+
+<a asp-action="ExportDelimitatedFile"
+   asp-controller="Property"
+   class="btn btn-light">
+    Exportar Delimitado
+</a>

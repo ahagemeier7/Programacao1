@@ -1,3 +1,7 @@
+using Modelo;
+using Repository;
+using System.Net;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -24,4 +28,43 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Property}/{action=Index}/{id?}");
 
+FillCategoryData();
+FillAddressData();
+
+
 app.Run();
+
+
+static void FillCategoryData()
+{
+    for (int i = 1; i <= 5; i++)
+    {
+        Category category = new()
+        {
+            Id = i,
+            Name = $"Category {i}"
+        };
+        CategoryData.Categorias.Add(category);
+    }
+}
+
+static void FillAddressData()
+{
+    for (int i = 1; i <= 5; i++)
+    {
+        Address address = new()
+        {
+            Id = i,
+            AddressType = "Casa",
+            City = "Videira",
+            Country = "HU3HU3BR",
+            State = "SC",
+            PostalCode = "89560-000",
+            Street = "Rua da minha casa",
+            Number = i
+        };
+        AddressData.Addresses.Add(address);
+    };
+}
+
+

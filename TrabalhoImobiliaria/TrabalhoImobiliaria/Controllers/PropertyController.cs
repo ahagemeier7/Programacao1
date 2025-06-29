@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Modelo;
 using Repository;
+using System;
 using TrabalhoImobiliaria.ViewModels;
 
 namespace TrabalhoImobiliaria.Controllers
@@ -67,6 +68,95 @@ namespace TrabalhoImobiliaria.Controllers
             _propertyRepository.DeleteById(id);
             var imoveis = _propertyRepository.RetrieveAll();
             return View("Index", imoveis);
+        }
+
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            var property = _propertyRepository.Retrieve(id);
+            var viewModel = new PropertyViewModel
+            {
+                Property = property,
+                Categories = _categoryRepository.RetrieveAll(),
+                Addresses = _addressRepository.RetrieveAll()
+            };
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Update(PropertyViewModel model)
+        {
+            // Atualiza as referências de Categoria e Endereço
+            if (model.Property is not null)
+            {
+                if (model.Property.CategoriaId > 0)
+                    model.Property.Categoria = _categoryRepository.Retrieve(model.Property.CategoriaId);
+
+                if (model.Property.AddressId > 0)
+                    model.Property.Address = _addressRepository.Retrieve(model.Property.AddressId);
+
+                _propertyRepository.Update(model.Property);
+            }
+
+            var properties = _propertyRepository.RetrieveAll();
+            return View("Index", properties);
+        }
+
+        [HttpGet]
+        public IActionResult ExportDelimitatedFile()
+        {
+            string fileContent = string.Empty;
+            foreach (Property c in PropertyData.Imoveis)
+            {
+                fileContent +=
+                    $"{c.Id};{c.NroQuartos};{c.NroVagas};{c.NroBanheiros};{c.Nome};{c.Descricao};{c.Categoria?.Name};{c.Address?.Country};{c.Address?.State};{c.Address?.City};{c.Address?.PostalCode};{c.Address?.Number}\n";
+            }
+
+            SaveFile(fileContent, "DelimitatedFile.txt");
+
+            return View();
+        }
+
+        private bool SaveFile(string content, string fileName)
+        {
+            bool ret = true;
+
+            if (string.IsNullOrEmpty(content) || string.IsNullOrEmpty(fileName))
+                return false;
+
+            var path = Path.Combine(
+                _environment.WebRootPath,
+                "TextFiles"
+            );
+
+            try
+            {
+
+                if (!System.IO.Directory.Exists(path))
+                    System.IO.Directory.CreateDirectory(path);
+
+                var filepath = Path.Combine(
+                    path,
+                    fileName
+                );
+
+                using (StreamWriter sw = System.IO.File.CreateText(filepath))
+                {
+                    sw.Write(content);
+                }
+            }
+            catch (IOException ioEx)
+            {
+                string msg = ioEx.Message;
+                ret = false;
+            }
+            catch (Exception ex)
+            {
+                string msg = ex.Message;
+                ret = false;
+            }
+
+            return ret;
         }
     }
 }
